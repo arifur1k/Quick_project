@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+	box-sizing: border-box;
+}
+hr:not([size]) {
+    height: 1px;
+    margin: 0;
+    width: 80%;
+    margin: auto;
+}
+img{
+	max-width: 100%;
+}
+a{
+	list-style: none;
+}
+li{
+	text-decoration: none;
+}
+p{
+	color: #3f3d56eb;
+}
+h1{
+	color: #3f3d56;
+}
+h4{
+	padding: 20px 0 10px;
+}
+.navbar{
+	background: white !important;
+	margin: 10px;
+}
+.navbar-brand{}
+.nav-item{}
+.nav-item a{
+	
+}
+.nav-link{}
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, 1);
+    font-size: 17px;
+    margin: 0 10px;
+    padding: 8px 20px;
+    border-radius: 30px;
+    transition:all 0.5s ease;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+	background: #008aff;
+	color: white;
+	scale:(1.1);
+	
+}
+
+.heading-section{}
+.heading-content{}
+.heading-content h1{
+	font-size: 41px;
+	font-weight: 600;
+	width: 500px;
+	margin: auto;
+	line-height: 55px;
+}
+.heading-content h1 strong{
+	font-size: 40px;
+    font-weight: 600;
+    color: #008aff;
+}
+.heading-content p{
+	    max-width: 860px;
+    margin: auto;
+    padding: 20px 0;
+    line-height: 30px;
+}
+.heading-content img{}
+
+.banner-section{
+
+background: #e6e6e63d;
+}
+.banner-content{}
+.banner-content p{
+   
+    font-size: 18px;
+    line-height: 28px;
+    
+}
+.banner-content h1{
+    font-size: 41px;
+    color: orange;
+}
+.results{}
+.results h1{
+    font-size: 41px;
+    line-height: 52px;
+    width: 400px;
+}
+
+.feature-section{}
+.feature-content-1{
+	background-color: #fdebed;
+	padding: 68px 20px;
+	border-radius: 10px;
+	margin: 0 10px;
+	transition:all .5s ease;
+}
+.feature-content-1 h4{}
+.feature-content-1 p{}
+.feature-content-1 img{}
+
+.feature-content-2{ 
+	background-color: #ebf9f4;
+    padding: 50px 20px;
+    border-radius: 10px;
+    margin: 0 10px;
+    transition:all .5s ease;
+}
+.feature-content-2 h4{}
+.feature-content-2 p{}
+.feature-content-2 img{}
+
+.feature-content-3{
+	background-color: #fff7e8;
+	padding: 42px 20px;
+	border-radius: 10px;
+	margin: 0 10px;
+	transition:all .5s ease;
+}
+.feature-content-3 h4{}
+.feature-content-3 p{}
+.feature-content-3 img{}
+
+.feature-content-1:hover, .feature-content-2:hover,.feature-content-3:hover {
+    background: #fff;
+    box-shadow: 8px 10px 20px 0 rgba(217, 209, 209, 0.88);
+}
+
+.footer-section{
+	background: #008aff;
+}
+.footer-content{}
+.footer-content p{
+	color: white;
+        margin: 0;
+    padding: 30px;
+}
